@@ -16,7 +16,7 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID"))
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Siddhi ダ ᴍᴜsɪᴄ")
 
-OWNER_ID = list(map(int, getenv("OWNER_ID", "6258877205").split()))
+OWNER_ID = list(map(int, getenv("OWNER_ID", "5894040136").split()))
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
@@ -25,8 +25,8 @@ UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/WCGKING/BRANDEDXMUSI
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/BRANDED_LINK")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/BRANDRD_21")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Zidd_Bot")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/L2R_FIGHTERS")
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 
@@ -76,7 +76,7 @@ clean = {}
 autoclean = []
 
 
-START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/536723ead419ce4d039eb.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/063bfeff0efdbd87fb103.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
@@ -135,4 +135,4 @@ if PING_IMG_URL:
 if START_IMG_URL:
     if START_IMG_URL != "assets/Ping.jpeg":
         if not re.match("(?:http|https)://", START_IMG_URL):
-            START_IMG_URL = "https://te.legra.ph/file/5ef86d039b64df539acc2.jpg"
+            START_IMG_URL = "https://te.legra.ph/file/063bfeff0efdbd87fb103.jpg"
